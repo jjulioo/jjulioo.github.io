@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#hero {
+    background-color: #7CB4B8; /* Azul */
+    color: #fff;
+    padding: 150px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+#hero img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    object-fit: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#countdown-timer {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#calendar {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#ubicacion iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: none;
+    margin: 20px 0;
+}
+
+/* Estilos adicionales para mejorar la estética */
+h1 {
+    color: #333; /* Blanco */
+    font-family: "Rye";
+    font-size: 45px;
+}
+h2 {
+    color: #333; /* Blanco */
+    font-family: "Rye";
+    font-size: 35px;
+}
+section:nth-child(even) {
+    background-color: #eee; /* Gris claro para secciones alternas */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    #hero {
+        padding: 100px 0;
+    }
+
+    #countdown-timer {
+        font-size: 1.5em;
+    }
+} 
+
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
